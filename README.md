@@ -244,18 +244,6 @@ The Firefly algorithm reduces the 768 ConvNeXt-Tiny features to a smaller subset
 | ConvNeXt-Tiny + MLP | 92.9% ± 0.6% | 0.9286 | 0.9868 |
 | ConvNeXt-Tiny + SVM | 94.1% ± 0.2% | 0.9410 | 0.9890 |
 
-### Firefly Confusion Matrices
-
-| ConvNeXt-Tiny + MLP | ConvNeXt-Tiny + SVM |
-|---------------------|---------------------|
-| ![](firefly_results/convnext_tiny_mlp_confusion.png) | ![](firefly_results/convnext_tiny_svm_confusion.png) |
-
-### Firefly ROC Curves
-
-| ConvNeXt-Tiny + MLP | ConvNeXt-Tiny + SVM |
-|---------------------|---------------------|
-| ![](firefly_results/convnext_tiny_mlp_roc.png) | ![](firefly_results/convnext_tiny_svm_roc.png) |
-
 ---
 
 ## Inference Samples
@@ -321,3 +309,5 @@ pip install torch torchvision numpy opencv-python scikit-learn matplotlib tqdm j
 | `model_run.py` | `SEG_MODEL_PATH` | Path to U-Net weights |
 | `model_run.py` | `CLS_MODEL_PATH` | Path to classifier weights |
 | `model_run.py` | `INPUT_PATH` | Image or folder to run inference on |
+---
+Made with ❤️ by NiceGuy
